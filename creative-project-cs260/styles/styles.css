@@ -1,0 +1,188 @@
+/*#EAE7DC
+#D8C3A5
+#8E8D8A
+#E98074
+#E85A4F
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+    background-color: #EAE7DC;
+    color: #E85A4F;
+}
+
+.main-body-faq {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.navbar {
+    /*background-color: #E27D60!important;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: green;
+    font-size: 2rem;
+}
+
+a.navbar-brand {
+    border: 1px red!important;
+}
+
+nav-item:hover {
+    transform: rotate(180deg);
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2rem;
+    background-image: url("../cppics/chicken.jpg");
+    background-position: center;
+    position: relative;
+    height: 100%;
+    background-size: cover;
+}
+
+.intro-paragraph, .about-us, .shopping-div, .faq-class {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*idk what this grid-template-rows is doing*/
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem;
+}
+
+.shopping-div {
+    margin: 2rem;
+
+}
+
+.quote-div {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+/*
+.cards {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    animation: slide-left 3s ease 1s forwards;
+    color: #8E8D8A;
+}
+*/
+.card {
+    /*display: flex;*/
+    flex: 1 1;
+    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    border: solid 1px #E85A4F;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 0 8px rgb(0 0 0 / 20%);
+    justify-content: center;
+
+}
+
+.image-wrapper {
+    justify-content: center;
+    align-items: center;
+}
+/*
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+.text-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.buy_button {
+    position: relative;
+    display: flex;
+    font-size: 1rem;
+    line-height: 1.67;
+    font-weight: bold;
+    letter-spacing: 1px;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    background-color: #E85A4F;
+    color: #EAE7DC;
+    border: 2px solid #8E8D84;
+    border-radius: 10px;
+    user-select: none;
+    width: 50%;
+}
+
+.buy_button:hover {
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #E85A4F;
+  background-color: #EAE7DC;
+}
+
+.buy_button:active {
+    color: #EAE7DC;
+    background-color: #E85A4F;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+footer {
+    text-align: center;
+    bottom: 5;
+    width: 100%;
+}
+
+.faq-footer {
+    bottom: 5;
+    position: absolute;
+}
+
+
+
+
+
