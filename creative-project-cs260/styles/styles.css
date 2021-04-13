@@ -42,6 +42,35 @@ nav-item:hover {
     transform: rotate(180deg);
 }
 
+.randomImageForm {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.imageResults, .imageResults1, .imageResults2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.imageResults2 > p {
+    display: flex; 
+    justify-content: space-between;
+}
+
+#photoInput, #photoInput1, #photoInput2, #photoSubmit, #photoSubmit1, #photoSubmit2 {
+    display: flex;
+    padding: .5rem;
+    margin-left: 1rem;
+    border: 1px #fff;
+    border-radius: 5px;
+}
 
 h1 {
     font-size: 3rem;
